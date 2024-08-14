@@ -1,0 +1,89 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 124px;
+    margin: 0;
+    margin-bottom: 16px;;
+
+}
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+button {
+    height: 60px;
+    border: none;
+    border-radius: 999px;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    padding: 16px 32px;
+}
+
+#increment-btn {
+    background: #F9B853;
+    width: 100%;
+}
+
+#save-btn {
+    background: white;
+}
+
+.main-container{
+    width: 390px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: black;
+}
+
+#top-container {
+    padding: 80px 24px;
+    display: flex;
+    justify-content: center;
+    background-image: url("london-museum-crop.jpg");
+    background-size: cover;
+}
+
+#bottom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+    gap: 80px;
+    padding: 32px 16px;
+    background: black;
+    color: white;
+}
+
+#btn-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    
+}
+
+#count-display {
+    width: 268px;
+    height: 268px;
+    background: white;
+    opacity: 0.9;
+    border-radius: 999px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#save-el {
+    text-align: left;
+    min-height: 40px;
+    
+}

@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Visitor Counter</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div id="top-container">
+        <div id="count-display">
+          <h3>Visitors Today</h3>
+          <h2 id="count-el">0</h2>
+        </div>
+      </div>
+      <div id="bottom-container">
+        <div id="history">
+          <h3>Previous entries:</h3>
+          <div id="save-el"></div>
+        </div>
+        <div id="btn-wrapper">
+          <button id="save-btn" onclick="save()">Save</button>
+          <button id="increment-btn" onclick="increment()">
+            Count Visitor
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js">
+    </script>
+  </body>
+</html>
